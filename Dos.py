@@ -5,11 +5,11 @@ console = Console()
 from scapy.all import Ether, ARP, srp
 import time
 
-target_ip = "192.168.1.116"
-target_mac = "3C:61:05:EF:2E:B1"
+target_ip = "192.168.1.0"
+target_mac = "02:1A:7C:4F:9B:3D"
 
 ROUTER_ip = "192.168.1.1"
-ROUTER_mac = "20:B0:01:DF:A1:FE"
+ROUTER_mac = "06:5F:D2:8E:1C:AA"
 
 fake_mac = "00:12:ff:12:44:12"
 
